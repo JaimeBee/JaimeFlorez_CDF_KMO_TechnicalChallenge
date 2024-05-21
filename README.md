@@ -5,12 +5,12 @@ and it wasn't working anymore. It was throwing an error in the jupyter notebook 
 I realized the new version I got after the update requires an extra instruction after the *groupby*: 'group_keys=False'. When I submitted my code to you - with the previous 
 version - it was throwing only a warning but the code was producing the correct output (results).
 
-I attached a screenshot of the original version of my code I submitted the day of the test so you can confirm my code was working properly without the 'group_keys=False'. 
-I took this screenshot from the github repo which includes the code and the output exactly as they were in my work submitted on the test day. Please check the 
-screenshoot here in this repo.
+I attached a screenshot of the original version of my code (and output) submitted the day of the test so you can confirm my code was working properly without the 'group_keys=False'. 
+I took this screenshot from the github repo. Please check the screenshoot also here in this repo.
 
-So, if you have a new version of Python and my code is throwing an error in that section, be aware this is because the code is missing the 'group_keys=False'. To run properly, here is 
-an updated code in that section including the additional instruction mentioned required in the new Python version:
+In summary, if you have a new version of Python and my code is throwing an error, be aware this is because the code is missing the 'group_keys=False' that the older
+version (the one I had the test day) didn't require. To run properly, below is an updated code for the section in question. The only difference (addition of 'group_keys=False') 
+with the original version is highlighted in bold:
 
 
 `Fams = pd.DataFrame(df.groupby(['CollectionCode', 'Family']).size())`\
