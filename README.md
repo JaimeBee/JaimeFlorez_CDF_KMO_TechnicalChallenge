@@ -2,7 +2,7 @@
 
 Today Tuesday 21 May I decided to update my whole Anaconda. After that, I went to check the code I submitted to you on the technical test day (only my personal copy in my laptop) 
 and it wasn't working anymore. It was throwing an error in the jupyter notebook cell below the title "Calculating Procentage of Families for Each Collection". After working on it 
-I realized the new version I got after the update requires an extra instruction after the *groupby*: 'group_keys=False'. When I submitted my code to you - with the previous 
+I realized the new version I got after the update requires an extra instruction after the *groupby*: **'group_keys=False'**. When I submitted my code to you - with the previous 
 version - it was throwing only a warning but the code was producing the correct output (results).
 
 I attached a screenshot of the original version of my code (and output) submitted the day of the test so you can confirm my code was working properly without the 'group_keys=False'. 
