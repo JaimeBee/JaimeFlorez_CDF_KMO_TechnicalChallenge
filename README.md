@@ -5,8 +5,9 @@ and it wasn't working anymore. It was throwing an error in the jupyter notebook 
 I realized the new version I got after the update requires an extra instruction after the *groupby*: 'group_keys=False'. When I submitted my code to you - with the previous 
 version - it was throwing only a warning but the code was producing the correct output (results).
 
-I attached a screenshot of the code I submitted on the original version the day of the test submittion so you can confirm that my code was working properly that day. 
-I took this screenshot from the github repo which includes the code and the output exactly as they were after I submitted on the test day. Please check the screenshoot here in this repo.
+I attached a screenshot of the code I submitted on the original version the day of the test submittion so you can confirm that my code was working properly that day without the 
+'group_keys=False'. I took this screenshot from the github repo which includes the code and the output exactly as they were after I submitted on the test day. Please check the 
+screenshoot here in this repo.
 
 So, if you have a new version of Python and my code is throwing an error in that section, be aware this is because the code is missing the 'group_keys=False'. To run properly, here is 
 an updated code in that section including the additional instruction mentioned required in the new Python version:
