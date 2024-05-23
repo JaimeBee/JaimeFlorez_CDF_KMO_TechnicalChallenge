@@ -21,3 +21,8 @@ with the original version is highlighted in bold:
 
 
 I hope you understand this inconveniences are common with different versions.
+
+
+### ABOUT 2nd EXERCISE
+
+2nd exercise was completed (and uploaded, together with required files) after submittion date. I wanted to have all together and finished.
